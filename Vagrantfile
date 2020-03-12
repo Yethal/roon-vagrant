@@ -28,7 +28,7 @@ SCRIPT
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu1604"
   config.vm.network "public_network"
-  config.vm.hostname =  "roonserver"
+  config.vm.hostname =  $name
 
   config.vm.provider "virtualbox" do |vb|
     vb.name = $name
