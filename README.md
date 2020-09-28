@@ -1,7 +1,7 @@
 # roon-vagrant
 Quickly setup Roon server VM using Vagrant
 
-This Vagrantfiles sets up an Ubuntu VM and then installs Roon Server running as standard user.
+This Vagrantfiles sets up an Ubuntu VM and then installs Roon Server running as root.
 Due to the fact that Roon uses IGMP and multicast for endpoint discovery the only sane way to configure networking for the VM is to use bridged networking.
 
 ## Supported providers:
